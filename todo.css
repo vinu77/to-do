@@ -1,0 +1,86 @@
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#todoMain
+{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#todoMain article
+{
+    width: 500px;
+    height: 60vh;
+    background-color: grey;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;
+    align-items: center; */
+    padding: 20px;
+    gap: 1%;
+}
+#todoMain article .top
+{
+    width: 100%;
+    flex-basis: 20%;
+    background-color: rgba(0, 0, 0, 0.699);
+    border-radius: 10px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 1%;
+}
+#todoMain article .top input,button
+{
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+#todoMain article .bottom
+{
+    flex-basis: 80%;
+    width: 100%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 1%;
+}
+/* dom style  */
+.itemDiv
+{
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1%;
+}
+.itemDivRight
+{
+    display: flex;
+    gap: 5%;
+}
+.itemDivRight button:last-child
+{
+    background-color: rgba(255, 0, 0, 0.486) ;
+}
+.itemDivRight button:first-child
+{
+    background-color: rgba(0, 128, 0, 0.589) ;
+}
